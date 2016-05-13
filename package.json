@@ -1,0 +1,33 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "ToDo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Dimcha/todo-list.git"
+  },
+  "author": "Dimcha",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/Dimcha/todo-list/issues"
+  },
+  "devDependencies": {
+    "jsx-loader": "~0.13.2",
+    "babel-preset-react": "~6.5.0",
+    "express": "~4.13.4",
+    "react-dom": "~15.0.2",
+    "jquery": "~2.2.3",
+    "body-parser": "~1.15.1",
+    "webpack": "~1.13.0",
+    "react": "~15.0.2",
+    "mysql": "~2.10.2",
+    "webpack-dev-middleware": "~1.6.1",
+    "webpack-hot-middleware": "~2.10.0",
+    "ejs": "~2.4.1"
+  }
+}

@@ -1,0 +1,32 @@
+body {
+  font-family: 'Comic Sans MS', Textile, cursive;
+}
+
+header {
+  background: #eff0f1;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  width: 500px;
+  margin: 0 auto;
+  cursor: default;
+}
+
+section {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.list {
+  padding-top: 20px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.wrap-task {
+  word-wrap: break-word;
+}
