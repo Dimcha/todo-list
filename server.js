@@ -1,5 +1,3 @@
-// var mysql         = require('mysql');
-// var React         = require('react');
 var express       = require('express');
 var webpack       = require('webpack');
 var webpackConfig = require('./webpack.config');

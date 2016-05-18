@@ -1,5 +1,6 @@
 body {
   font-family: 'Comic Sans MS', Textile, cursive;
+  margin: 0px;
 }
 
 header {
@@ -19,6 +20,12 @@ section {
   margin: 0 auto;
 }
 
+input {
+  font-family: inherit;
+  margin: 0;
+  font: inherit;
+}
+
 .list {
   padding-top: 20px;
 }
@@ -29,4 +36,59 @@ section {
 
 .wrap-task {
   word-wrap: break-word;
+}
+
+.form-control {
+  vertical-align: middle;
+  height: 22px;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  cursor: pointer;
+  color: #FFF;
+  background-color: #337AB7;
+  border-color: #2E6DA4;
+  padding: 6px 12px;
+  font-size: 14px;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.finished {
+  float: left;
+  width: 5%;
+}
+
+.task {
+  float: left;
+  width: 50%;
+  font-size: 14px;
+}
+
+.delete {
+  float: left;
+  width: 10%;
+  color: #337AB7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.row::after, .row::before {
+  display: table;
+  content: " ";
+}
+.row:after {
+  clear: both;
 }
